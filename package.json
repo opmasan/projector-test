@@ -1,0 +1,23 @@
+{
+  "name": "projector-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "bemto.pug": "^2.1.0",
+    "browser-sync": "^2.23.5",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {},
+  "description": ""
+}

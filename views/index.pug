@@ -1,0 +1,13 @@
+extends root
+block content
+  header
+    .container
+      nav
+        div Центр надання адміністративних послуг
+  +b.content
+    .container
+      +e(h2).title Виберіть категорію
+      .row
+        each category in categories
+          +item-block(category.img, category.title, category.url)
+

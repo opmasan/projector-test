@@ -1,0 +1,49 @@
+-
+  var categories = [
+    {
+      title: 'Автотранспорт',
+      img: '/assets/img/1.png',
+      url: '#'
+    },
+    {
+      title: 'Будівництво, архітектура, землекористування',
+      img: '/assets/img/2.png',
+      url: '#'
+    },
+    {
+      title: 'Громадянство',
+      img: '/assets/img/3.png',
+      url: '#'
+    },
+    {
+      title: 'Захист прав дитини',
+      img: '/assets/img/4.png',
+      url: '#'
+    },
+    {
+      title: 'Реєстрація місця проживання/перебування',
+      img: '/assets/img/5.png',
+      url: '#'
+    },
+    {
+      title: 'Підприємницька діяльність',
+      img: '/assets/img/6.png',
+      url: '#'
+    },
+    {
+      title: 'Санітарне та епідемічне  благополуччя,  ветеринарна медицина',
+      img: '/assets/img/7.png',
+      url: '#'
+    },
+    {
+      title: 'Комунальне господарство',
+      img: '/assets/img/8.png',
+      url: '#'
+    }
+  ]
+mixin item-block (img, title, url)
+  .col-md-3
+    +b(a).category(href= url)
+      +e.cover
+        img(src= img)
+      +e.title=title
