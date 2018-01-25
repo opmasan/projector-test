@@ -5,16 +5,28 @@ body {
 }
 header {
   background-color: #383e49;
+}
+header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .nav__title {
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   color: #fff;
+  font-size: 34px;
 }
 .content__title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 30px;
-  font-size: 2em;
+  font-size: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

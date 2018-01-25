@@ -2,8 +2,9 @@ extends root
 block content
   header
     .container
-      nav
-        div Центр надання адміністративних послуг
+      +b(nav).nav
+        +e(img).icon(src='/assets/img/book.png')
+        +e.title Центр надання адміністративних послуг
   +b.content
     .container
       +e(h2).title Виберіть категорію
